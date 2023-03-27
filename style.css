@@ -7,15 +7,12 @@ h1{
     text-align: center;
 }
 
-section{
-    width: 600px;
-    height: 600px;
+#form-pergunta-chat{
+    margin-left:180px;
 }
-#campo-pergunta{
-    margin-left: 180px;
-}
+
 #btn-pergunta-chat{
     padding: 12px;
     margin-left: 180px;
-    font:bold 12pt Arial
+    font: bold 12pt Arial;
 }

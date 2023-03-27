@@ -1,12 +1,15 @@
 const formPerguntaChat = document.getElementById('form-pergunta-chat')
 
-const OPENAI_API_KEY = "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"
+const OPENAI_API_KEY = "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"
 
+//Verificar se tem a chave
+if(OPENAI_API_KEY===""){
+    document.getElementById('pergunta').innerHTML = "<span style='color:#f00;'>Necessário colocar a chave na API no arquivo custon.js</span>"
+}
 //Acessa o IF quando tem o SELETOR na página HTML
-
 if(formPerguntaChat){
 
-    //Aguardae o usuário clicar no botão enviar
+    //Aguarde o usuário clicar no botão enviar
     
     formPerguntaChat.addEventListener('submit', async (e) =>{
 
