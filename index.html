@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Consulta ao ChatGPT</h1>
+        <!--Início do ormulário-->
+        <form id="form-pergunta-chat">
+            <!--Campo do tipo textarea para o usuário digitar o texto da pergunta-->
+            <!--<label>Pergunta:</label>-->
+            <textarea id="campo-pergunta" rows="5" cols="50" placeholder="Digite a pergunta"></textarea><br/><br/>
+            <input type="submit" id="btn-pergunta-chat" value="Enviar"> <br/><br/>
+        </form>
+        <!-- fim do formulário-->
+        <script src="js/custom.js"></script>
+        
+        <!-- Receber o texto da pergunta-->
+        <p id="pergunta"></p>
+        <!--Receber o texto da resposta-->
+        
+        <p id="resposta"></p>
+        
+    </section>
+</body>
+</html>

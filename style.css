@@ -1,0 +1,21 @@
+body{
+    background-color: #3698D9;
+    color: #004346;
+    
+}
+h1{
+    text-align: center;
+}
+
+section{
+    width: 600px;
+    height: 600px;
+}
+#campo-pergunta{
+    margin-left: 180px;
+}
+#btn-pergunta-chat{
+    padding: 12px;
+    margin-left: 180px;
+    font:bold 12pt Arial
+}
